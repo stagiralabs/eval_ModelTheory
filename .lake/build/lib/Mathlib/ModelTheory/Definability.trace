@@ -1,0 +1,95 @@
+{"log":
+ [{"message":
+   ".> LEAN_PATH=././.lake/packages/Cli/.lake/build/lib:././.lake/packages/batteries/.lake/build/lib:././.lake/packages/Qq/.lake/build/lib:././.lake/packages/aesop/.lake/build/lib:././.lake/packages/proofwidgets/.lake/build/lib:././.lake/packages/importGraph/.lake/build/lib:././.lake/packages/LeanSearchClient/.lake/build/lib:././.lake/packages/plausible/.lake/build/lib:././.lake/packages/SafeVerify/.lake/build/lib:././.lake/packages/mathlib/.lake/build/lib:././.lake/packages/VerifiedAgora/.lake/build/lib:././.lake/build/lib LD_LIBRARY_PATH= /home/shivansg/.elan/toolchains/leanprover--lean4---v4.17.0/bin/lean ././src/./Mathlib/ModelTheory/Definability.lean -R ././src/. -o ././.lake/build/lib/Mathlib/ModelTheory/Definability.olean -i ././.lake/build/lib/Mathlib/ModelTheory/Definability.ilean -c ././.lake/build/ir/Mathlib/ModelTheory/Definability.c --json",
+   "level": "trace"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:53:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:57:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:61:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:65:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:69:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:72:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:75:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:78:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:91:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:95:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:99:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:103:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:122:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:126:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:130:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:136:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:144:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:149:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:212:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:215:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:218:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:221:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:224:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:227:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:230:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:233:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:236:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:239:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:243:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Definability.lean:252:8: declaration uses 'sorry'",
+   "level": "warning"}],
+ "depHash": "7629285862332831360"}
