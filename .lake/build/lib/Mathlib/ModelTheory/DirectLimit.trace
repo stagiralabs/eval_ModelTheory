@@ -39,13 +39,13 @@
    "././src/./Mathlib/ModelTheory/DirectLimit.lean:213:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:239:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:240:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:242:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:243:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:247:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:248:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/DirectLimit.lean:256:8: declaration uses 'sorry'",
@@ -54,33 +54,33 @@
    "././src/./Mathlib/ModelTheory/DirectLimit.lean:261:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:300:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:301:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:303:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:304:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:306:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:307:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:341:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:344:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:348:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:351:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:379:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:383:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:384:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:388:6: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:402:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:406:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:407:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:411:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/DirectLimit.lean:412:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/DirectLimit.lean:416:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "9750331026576546623"}
+ "depHash": "11222154132146730082"}

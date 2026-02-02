@@ -115,8 +115,12 @@ theorem imp_antisymm {φ ψ : L.BoundedFormula α n} (h₁ : φ ⟹[T] ψ) (h₂
 
 namespace Iff
 
+@[target]
+
 protected theorem mp {φ ψ : L.BoundedFormula α n} (h : φ ⇔[T] ψ) :
     φ ⟹[T] ψ := (iff_iff_imp_and_imp.1 h).1
+
+@[target]
 
 protected theorem mpr {φ ψ : L.BoundedFormula α n} (h : φ ⇔[T] ψ) :
     ψ ⟹[T] φ := (iff_iff_imp_and_imp.1 h).2
@@ -163,11 +167,15 @@ theorem models_sentence_iff {φ ψ : L.Sentence} {M : Type*} [Nonempty M]
     [L.Structure M] [M ⊨ T] (h : φ ⇔[T] ψ) :
     M ⊨ φ ↔ M ⊨ ψ := by sorry
 
+@[target]
+
 protected theorem all {φ ψ : L.BoundedFormula α (n + 1)}
     (h : φ ⇔[T] ψ) : φ.all ⇔[T] ψ.all := by
   simp_rw [Theory.Iff, ModelsBoundedFormula, BoundedFormula.realize_iff,
     BoundedFormula.realize_all]
   exact fun M v xs => forall_congr' fun a => h.realize_bd_iff
+
+@[target]
 
 protected theorem ex {φ ψ : L.BoundedFormula α (n + 1)} (h : φ ⇔[T] ψ) :
     φ.ex ⇔[T] ψ.ex := by
@@ -175,11 +183,15 @@ protected theorem ex {φ ψ : L.BoundedFormula α (n + 1)} (h : φ ⇔[T] ψ) :
     BoundedFormula.realize_ex]
   exact fun M v xs => exists_congr fun a => h.realize_bd_iff
 
+@[target]
+
 protected theorem not {φ ψ : L.BoundedFormula α n} (h : φ ⇔[T] ψ) :
     φ.not ⇔[T] ψ.not := by
   simp_rw [Theory.Iff, ModelsBoundedFormula, BoundedFormula.realize_iff,
     BoundedFormula.realize_not]
   exact fun M v xs => not_congr h.realize_bd_iff
+
+@[target]
 
 protected theorem imp {φ ψ φ' ψ' : L.BoundedFormula α n} (h : φ ⇔[T] ψ) (h' : φ' ⇔[T] ψ') :
     (φ.imp φ') ⇔[T] (ψ.imp ψ') := by

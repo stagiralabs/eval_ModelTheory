@@ -33,75 +33,75 @@
    "././src/./Mathlib/ModelTheory/Complexity.lean:93:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:108:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:114:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:111:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:117:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:124:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:130:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:145:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:151:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:156:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:163:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:160:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:167:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:172:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:180:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:176:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:184:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:189:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:197:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:194:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:199:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:203:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:202:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Complexity.lean:207:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:216:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:211:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:225:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:215:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:244:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:224:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:259:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:233:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:262:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:254:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:271:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:269:6: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:274:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:272:6: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:292:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:281:6: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:312:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:284:6: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:317:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:302:6: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Complexity.lean:355:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Complexity.lean:322:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Complexity.lean:327:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Complexity.lean:365:6: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "17217941414689977214"}
+ "depHash": "12123929902095952902"}

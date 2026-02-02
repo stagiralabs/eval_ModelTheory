@@ -30,19 +30,19 @@
    "././src/./Mathlib/ModelTheory/Semantics.lean:146:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:166:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:168:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:172:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:174:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:194:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:196:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:201:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:203:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:208:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:209:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Semantics.lean:218:8: declaration uses 'sorry'",
@@ -57,109 +57,109 @@
    "././src/./Mathlib/ModelTheory/Semantics.lean:229:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:247:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:246:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:250:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:249:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:253:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:252:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:256:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:255:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:260:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:259:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:271:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:270:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:284:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:283:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:290:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:289:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:296:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:295:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:302:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:301:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:306:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:305:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:335:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:334:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:340:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:339:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:345:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:344:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:367:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:368:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:386:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:387:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:401:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:402:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:405:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:406:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:417:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:418:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:448:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:449:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:498:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:497:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:506:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:505:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:528:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:527:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:546:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:545:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:549:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:548:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:552:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:551:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:563:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:562:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:566:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:565:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:569:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:568:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:572:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:571:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:575:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:574:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:578:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:577:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:581:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:580:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:610:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:611:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:632:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:633:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Semantics.lean:661:8: declaration uses 'sorry'",
@@ -174,37 +174,43 @@
    "././src/./Mathlib/ModelTheory/Semantics.lean:675:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:692:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:691:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:696:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:695:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:700:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:699:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:703:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:702:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:706:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:705:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:717:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:716:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:720:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:719:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:749:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:744:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Semantics.lean:753:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Semantics.lean:759:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:765:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:763:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:769:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:779:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Semantics.lean:782:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Semantics.lean:785:8: declaration uses 'sorry'",
@@ -213,18 +219,12 @@
    "././src/./Mathlib/ModelTheory/Semantics.lean:788:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:791:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:796:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:794:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:799:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:800:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:803:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Semantics.lean:806:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Semantics.lean:802:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "10549887094108261330"}
+ "depHash": "15177832426979873222"}

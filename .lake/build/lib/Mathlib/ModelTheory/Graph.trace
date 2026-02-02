@@ -6,6 +6,6 @@
    "././src/./Mathlib/ModelTheory/Graph.lean:68:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Graph.lean:94:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Graph.lean:93:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "657277953670637929"}
+ "depHash": "3454799195388846485"}

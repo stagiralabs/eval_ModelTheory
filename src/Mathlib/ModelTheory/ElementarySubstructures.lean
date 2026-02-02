@@ -65,12 +65,12 @@ instance inducedStructure (S : L.ElementarySubstructure M) : L.Structure S :=
 theorem isElementary (S : L.ElementarySubstructure M) : (S : L.Substructure M).IsElementary := by sorry
 
 /-- The natural embedding of an `L.Substructure` of `M` into `M`. -/
+@[target]
 def subtype (S : L.ElementarySubstructure M) : S ↪ₑ[L] M where
   toFun := (↑)
   map_formula' := S.isElementary
 
-@[simp]
-theorem subtype_apply {S : L.ElementarySubstructure M} {x : S} : subtype S x = x :=
+@[target, simp] theorem subtype_apply {S : L.ElementarySubstructure M} {x : S} : subtype S x = x :=
   rfl
 
 @[target]
@@ -124,8 +124,7 @@ theorem isElementary_of_exists (S : L.Substructure M)
     S.IsElementary := by sorry
 
 /-- Bundles a substructure satisfying the Tarski-Vaught test as an elementary substructure. -/
-@[simps]
-def toElementarySubstructure (S : L.Substructure M)
+@[target, simps] def toElementarySubstructure (S : L.Substructure M)
     (htv :
       ∀ (n : ℕ) (φ : L.BoundedFormula Empty (n + 1)) (x : Fin n → S) (a : M),
         φ.Realize default (Fin.snoc ((↑) ∘ x) a : _ → M) →

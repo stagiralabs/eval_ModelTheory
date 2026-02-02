@@ -69,8 +69,7 @@ theorem listDecode_encode_list (l : List (L.Term α)) :
     listDecode (l.flatMap listEncode) = l := by sorry
 
 /-- An encoding of terms as lists. -/
-@[simps]
-protected def encoding : Encoding (L.Term α) where
+@[target, simps] protected def encoding : Encoding (L.Term α) where
   Γ := α ⊕ (Σi, L.Functions i)
   encode := listEncode
   decode l := (listDecode l).head?.join

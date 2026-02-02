@@ -178,8 +178,7 @@ section
 
 variable {R : Type*} [Add R] [Mul R] [Neg R] [One R] [Zero R] [CompatibleRing R]
 
-@[simp]
-theorem realize_add (x y : ring.Term α) (v : α → R) :
+@[target, simp] theorem realize_add (x y : ring.Term α) (v : α → R) :
     Term.realize v (x + y) = Term.realize v x + Term.realize v y := by
   simp [add_def, funMap_add]
 

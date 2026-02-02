@@ -15,87 +15,87 @@
    "././src/./Mathlib/ModelTheory/Syntax.lean:126:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:208:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:207:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:212:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:211:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:246:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:244:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:249:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:247:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:377:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:375:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:380:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:378:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:384:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:382:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:432:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:430:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:441:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:439:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:458:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:455:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:465:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:462:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:481:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:478:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Syntax.lean:482:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Syntax.lean:485:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:488:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:489:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:492:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:493:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:496:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:497:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:500:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:501:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:504:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:551:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Syntax.lean:555:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:559:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:594:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:597:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:603:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:606:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:607:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:610:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:683:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Syntax.lean:686:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:689:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:749:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:752:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:753:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:756:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Syntax.lean:760:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Syntax.lean:757:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "9695161192340413102"}
+ "depHash": "11217544636522314792"}

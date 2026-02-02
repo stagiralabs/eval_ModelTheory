@@ -70,6 +70,8 @@ noncomputable def elementarySkolem₁Reduct (S : (L.sum L.skolem₁).Substructur
     L.ElementarySubstructure M :=
   ⟨LHom.sumInl.substructureReduct S, S.skolem₁_reduct_isElementary⟩
 
+@[target]
+
 theorem coeSort_elementarySkolem₁Reduct (S : (L.sum L.skolem₁).Substructure M) :
     (S.elementarySkolem₁Reduct : Type w) = S :=
   rfl

@@ -39,18 +39,18 @@
    "././src/./Mathlib/ModelTheory/Fraisse.lean:220:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Fraisse.lean:275:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Fraisse.lean:276:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Fraisse.lean:282:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Fraisse.lean:283:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Fraisse.lean:308:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Fraisse.lean:311:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Fraisse.lean:317:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Fraisse.lean:320:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Fraisse.lean:323:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Fraisse.lean:326:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "5784301508894500336"}
+ "depHash": "6596082814867333865"}

@@ -85,6 +85,8 @@ theorem term_realize_cast {β : Type*} (x : β → ∀ a, M a) (t : L.Term β) :
 
 variable [∀ a : α, Nonempty (M a)]
 
+@[target]
+
 theorem boundedFormula_realize_cast {β : Type*} {n : ℕ} (φ : L.BoundedFormula β n)
     (x : β → ∀ a, M a) (v : Fin n → ∀ a, M a) :
     (φ.Realize (fun i : β => (x i : (u : Filter α).Product M))
@@ -146,6 +148,7 @@ theorem realize_formula_cast {β : Type*} (φ : L.Formula β) (x : β → ∀ a,
 
 /-- **Łoś's Theorem**: A sentence is true in an ultraproduct if and only if the set of structures
 it is true in is in the ultrafilter. -/
+@[target]
 theorem sentence_realize (φ : L.Sentence) :
     (u : Filter α).Product M ⊨ φ ↔ ∀ᶠ a : α in u, M a ⊨ φ := by
   simp_rw [Sentence.Realize]

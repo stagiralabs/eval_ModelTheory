@@ -9,6 +9,6 @@
    "././src/./Mathlib/ModelTheory/Ultraproducts.lean:82:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Ultraproducts.lean:143:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Ultraproducts.lean:145:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "671518590332115176"}
+ "depHash": "8883925715125174382"}

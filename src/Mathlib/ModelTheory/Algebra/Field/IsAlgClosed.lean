@@ -69,6 +69,8 @@ theorem lift_genericMonicPoly [CommRing K] [Nontrivial K] {n : ℕ} (v : Fin (n+
 noncomputable def genericMonicPolyHasRoot (n : ℕ) : Language.ring.Sentence :=
   (∃' ((termOfFreeCommRing (genericMonicPoly n)).relabel Sum.inr =' 0)).alls
 
+@[target]
+
 theorem realize_genericMonicPolyHasRoot [Field K] [CompatibleRing K] (n : ℕ) :
     K ⊨ genericMonicPolyHasRoot n ↔
       ∀ p : { p : K[X] // p.Monic ∧ p.natDegree = n }, ∃ x, p.1.eval x = 0 := by
@@ -146,6 +148,7 @@ theorem ACF_zero_realize_iff_infinite_ACF_prime_realize {φ : Language.ring.Sent
 theory of algebraically closed fields of characteristic zero if and only if it is modeled by the
 theory of algebraically closed fields of characteristic `p` for all but finitely many primes `p`.
 -/
+@[target]
 theorem ACF_zero_realize_iff_finite_ACF_prime_not_realize {φ : Language.ring.Sentence} :
     Theory.ACF 0 ⊨ᵇ φ ↔ Set.Finite { p : Nat.Primes | Theory.ACF p ⊨ᵇ φ }ᶜ :=
   ⟨fun h => finite_ACF_prime_not_realize_of_ACF_zero_realize φ h,

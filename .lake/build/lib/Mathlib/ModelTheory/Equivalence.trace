@@ -36,39 +36,39 @@
    "././src/./Mathlib/ModelTheory/Equivalence.lean:113:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:153:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
    "././src/./Mathlib/ModelTheory/Equivalence.lean:157:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:162:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:161:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:204:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:207:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:213:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:166:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Equivalence.lean:216:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:223:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:219:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:230:6: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:225:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:243:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:228:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:246:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:235:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Equivalence.lean:249:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:242:6: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:255:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:258:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Equivalence.lean:261:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "8836211817877235275"}
+ "depHash": "6186718122413969901"}

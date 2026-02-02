@@ -39,30 +39,30 @@
    "././src/./Mathlib/ModelTheory/LanguageMap.lean:251:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:313:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:311:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:326:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:324:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:343:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:341:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:365:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:363:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:374:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:372:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:406:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:404:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:424:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:421:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:461:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:458:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/LanguageMap.lean:470:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/LanguageMap.lean:467:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "8484108219263525260"}
+ "depHash": "13571395803254672105"}

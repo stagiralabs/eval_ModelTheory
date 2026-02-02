@@ -249,13 +249,16 @@ variable (L M)
 @[target, simp]
 theorem realize_noTopOrder [h : NoTopOrder M] : M ⊨ L.noTopOrderSentence := by sorry
 
-@[simp]
-theorem realize_noBotOrder [h : NoBotOrder M] : M ⊨ L.noBotOrderSentence :=
+@[target, simp] theorem realize_noBotOrder [h : NoBotOrder M] : M ⊨ L.noBotOrderSentence :=
   realize_noBotOrder_iff.2 h
+
+@[target]
 
 theorem noTopOrder_of_dlo [M ⊨ L.dlo] : NoTopOrder M :=
   realize_noTopOrder_iff.1 (L.dlo.realize_sentence_of_mem (by
     simp only [dlo, Set.union_insert, Set.union_singleton, Set.mem_insert_iff, true_or]))
+
+@[target]
 
 theorem noBotOrder_of_dlo [M ⊨ L.dlo] : NoBotOrder M :=
   realize_noBotOrder_iff.1 (L.dlo.realize_sentence_of_mem (by
@@ -263,8 +266,7 @@ theorem noBotOrder_of_dlo [M ⊨ L.dlo] : NoBotOrder M :=
 
 end LE
 
-@[simp]
-theorem orderedStructure_iff
+@[target, simp] theorem orderedStructure_iff
     [LE M] [Language.order.Structure M] [Language.order.OrderedStructure M] :
     L.OrderedStructure M ↔ LHom.IsExpansionOn (orderLHom L) M :=
   ⟨fun _ => inferInstance, fun _ => inferInstance⟩
@@ -287,12 +289,13 @@ theorem Term.realize_lt {t₁ t₂ : L.Term (α ⊕ (Fin n))}
 theorem realize_denselyOrdered_iff :
     M ⊨ L.denselyOrderedSentence ↔ DenselyOrdered M := by sorry
 
-@[simp]
-theorem realize_denselyOrdered [h : DenselyOrdered M] :
+@[target, simp] theorem realize_denselyOrdered [h : DenselyOrdered M] :
     M ⊨ L.denselyOrderedSentence :=
   realize_denselyOrdered_iff.2 h
 
 variable (L) (M)
+
+@[target]
 
 theorem denselyOrdered_of_dlo [M ⊨ L.dlo] : DenselyOrdered M :=
   realize_denselyOrdered_iff.1 (L.dlo.realize_sentence_of_mem (by
@@ -451,6 +454,7 @@ lemma dlo_age [Language.order.Structure M] [Mdlo : M ⊨ Language.order.dlo] [No
 
 /-- Any countable nonempty model of the theory of dense linear orders is a Fraïssé limit of the
 class of finite models of the theory of linear orders. -/
+@[target]
 theorem isFraisseLimit_of_countable_nonempty_dlo (M : Type w)
     [Language.order.Structure M] [Countable M] [Nonempty M] [M ⊨ Language.order.dlo] :
     IsFraisseLimit {M : CategoryTheory.Bundled.{w} Language.order.Structure |
@@ -458,6 +462,7 @@ theorem isFraisseLimit_of_countable_nonempty_dlo (M : Type w)
   ⟨(isUltrahomogeneous_iff_IsExtensionPair cg_of_countable).2 (dlo_isExtensionPair M M), dlo_age M⟩
 
 /-- The class of finite models of the theory of linear orders is Fraïssé. -/
+@[target]
 theorem isFraisse_finite_linear_order :
     IsFraisse {M : CategoryTheory.Bundled.{0} Language.order.Structure |
       Finite M ∧ M ⊨ Language.order.linearOrderTheory} := by
@@ -471,6 +476,7 @@ open Cardinal
 theorem aleph0_categorical_dlo : (ℵ₀).Categorical Language.order.dlo := by sorry
 
 /-- The theory of dense linear orders is `ℵ₀`-complete. -/
+@[target]
 theorem dlo_isComplete : Language.order.dlo.IsComplete :=
   aleph0_categorical_dlo.{0}.isComplete ℵ₀ _ le_rfl (by simp [one_le_aleph0])
     ⟨by

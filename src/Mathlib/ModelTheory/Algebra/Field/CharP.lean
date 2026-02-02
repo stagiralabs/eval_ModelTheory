@@ -69,6 +69,7 @@ instance model_fieldOfChar_of_charP [Field K] [CompatibleRing K]
 
 variable (p) (K)
 /- Not an instance because it caused performance problems in a different file. -/
+@[target]
 theorem charP_of_model_fieldOfChar [Field K] [CompatibleRing K]
     [h : (Theory.fieldOfChar p).Model K] : CharP K p :=
   charP_iff_model_fieldOfChar.1 h

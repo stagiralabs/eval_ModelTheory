@@ -72,10 +72,11 @@ instance instFunLike : FunLike (M ↪ₑ[L] N) M N where
 theorem map_boundedFormula (f : M ↪ₑ[L] N) {α : Type*} {n : ℕ} (φ : L.BoundedFormula α n)
     (v : α → M) (xs : Fin n → M) : φ.Realize (f ∘ v) (f ∘ xs) ↔ φ.Realize v xs := by sorry
 
-@[simp]
-theorem map_formula (f : M ↪ₑ[L] N) {α : Type*} (φ : L.Formula α) (x : α → M) :
+@[target, simp] theorem map_formula (f : M ↪ₑ[L] N) {α : Type*} (φ : L.Formula α) (x : α → M) :
     φ.Realize (f ∘ x) ↔ φ.Realize x := by
   rw [Formula.Realize, Formula.Realize, ← f.map_boundedFormula, Unique.eq_default (f ∘ default)]
+
+@[target]
 
 theorem map_sentence (f : M ↪ₑ[L] N) (φ : L.Sentence) : M ⊨ φ ↔ N ⊨ φ := by
   rw [Sentence.Realize, Sentence.Realize, ← f.map_formula, Unique.eq_default (f ∘ default)]
@@ -104,11 +105,11 @@ instance strongHomClass : StrongHomClass L (M ↪ₑ[L] N) M N where
   map_fun := map_fun
   map_rel := map_rel
 
-@[simp]
-theorem map_constants (φ : M ↪ₑ[L] N) (c : L.Constants) : φ c = c :=
+@[target, simp] theorem map_constants (φ : M ↪ₑ[L] N) (c : L.Constants) : φ c = c :=
   HomClass.map_constants φ c
 
 /-- An elementary embedding is also a first-order embedding. -/
+@[target]
 def toEmbedding (f : M ↪ₑ[L] N) : M ↪[L] N where
   toFun := f
   inj' := f.injective
@@ -116,17 +117,16 @@ def toEmbedding (f : M ↪ₑ[L] N) : M ↪[L] N where
   map_rel' {_} R x := by simp
 
 /-- An elementary embedding is also a first-order homomorphism. -/
+@[target]
 def toHom (f : M ↪ₑ[L] N) : M →[L] N where
   toFun := f
   map_fun' {_} f x := by simp
   map_rel' {_} R x := by simp
 
-@[simp]
-theorem toEmbedding_toHom (f : M ↪ₑ[L] N) : f.toEmbedding.toHom = f.toHom :=
+@[target, simp] theorem toEmbedding_toHom (f : M ↪ₑ[L] N) : f.toEmbedding.toHom = f.toHom :=
   rfl
 
-@[simp]
-theorem coe_toHom {f : M ↪ₑ[L] N} : (f.toHom : M → N) = (f : M → N) :=
+@[target, simp] theorem coe_toHom {f : M ↪ₑ[L] N} : (f.toHom : M → N) = (f : M → N) :=
   rfl
 
 @[target, simp]
@@ -212,8 +212,7 @@ theorem isElementary_of_exists (f : M ↪[L] N)
     ∀ {n} (φ : L.Formula (Fin n)) (x : Fin n → M), φ.Realize (f ∘ x) ↔ φ.Realize x := by sorry
 
 /-- Bundles an embedding satisfying the Tarski-Vaught test as an elementary embedding. -/
-@[simps]
-def toElementaryEmbedding (f : M ↪[L] N)
+@[target, simps] def toElementaryEmbedding (f : M ↪[L] N)
     (htv :
       ∀ (n : ℕ) (φ : L.BoundedFormula Empty (n + 1)) (x : Fin n → M) (a : N),
         φ.Realize default (Fin.snoc (f ∘ x) a : _ → N) →

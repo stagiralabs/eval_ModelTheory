@@ -12,9 +12,9 @@
    "././src/./Mathlib/ModelTheory/Skolem.lean:65:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Skolem.lean:89:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Skolem.lean:91:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Skolem.lean:98:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Skolem.lean:100:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "11725882686510135932"}
+ "depHash": "2438410172603612352"}

@@ -127,8 +127,7 @@ theorem relabel_comp_relabel (f : α → β) (g : β → γ) :
     (Term.relabel g ∘ Term.relabel f : L.Term α → L.Term γ) = Term.relabel (g ∘ f) := by sorry
 
 /-- Relabels a term's variables along a bijection. -/
-@[simps]
-def relabelEquiv (g : α ≃ β) : L.Term α ≃ L.Term β :=
+@[target, simps] def relabelEquiv (g : α ≃ β) : L.Term α ≃ L.Term β :=
   ⟨relabel g, relabel g.symm, fun t => by simp, fun t => by simp⟩
 
 /-- Restricts a term to use only a set of the given variables. -/
@@ -181,8 +180,7 @@ def varsToConstants : L.Term (γ ⊕ α) → L[[γ]].Term α
   | func f ts => func (Sum.inl f) fun i => (ts i).varsToConstants
 
 /-- A bijection between terms with constants and terms with extra variables. -/
-@[simps]
-def constantsVarsEquiv : L[[γ]].Term α ≃ L.Term (γ ⊕ α) :=
+@[target, simps] def constantsVarsEquiv : L[[γ]].Term α ≃ L.Term (γ ⊕ α) :=
   ⟨constantsToVars, varsToConstants, by
     intro t
     induction t with
@@ -201,6 +199,7 @@ def constantsVarsEquiv : L[[γ]].Term α ≃ L.Term (γ ⊕ α) :=
     · cases n <;> · simp [varsToConstants, constantsToVars, ih]⟩
 
 /-- A bijection between terms with constants and terms with extra variables. -/
+@[target]
 def constantsVarsEquivLeft : L[[γ]].Term (α ⊕ β) ≃ L.Term ((γ ⊕ α) ⊕ β) :=
   constantsVarsEquiv.trans (relabelEquiv (Equiv.sumAssoc _ _ _)).symm
 
@@ -237,8 +236,7 @@ namespace LHom
 open Term
 
 /-- Maps a term's symbols along a language map. -/
-@[simp]
-def onTerm (φ : L →ᴸ L') : L.Term α → L'.Term α
+@[target, simp] def onTerm (φ : L →ᴸ L') : L.Term α → L'.Term α
   | var i => var i
   | func f ts => func (φ.onFunction f) fun i => onTerm φ (ts i)
 
@@ -443,8 +441,7 @@ theorem mapTermRel_id_id_id {n} (φ : L.BoundedFormula α n) :
 
 /-- An equivalence of bounded formulas given by an equivalence of terms and an equivalence of
 relations. -/
-@[simps]
-def mapTermRelEquiv (ft : ∀ n, L.Term (α ⊕ (Fin n)) ≃ L'.Term (β ⊕ (Fin n)))
+@[target, simps] def mapTermRelEquiv (ft : ∀ n, L.Term (α ⊕ (Fin n)) ≃ L'.Term (β ⊕ (Fin n)))
     (fr : ∀ n, L.Relations n ≃ L'.Relations n) {n} : L.BoundedFormula α n ≃ L'.BoundedFormula β n :=
   ⟨mapTermRel (fun n => ft n) (fun n => fr n) fun _ => id,
     mapTermRel (fun n => (ft n).symm) (fun n => (fr n).symm) fun _ => id, fun φ => by simp, fun φ =>
@@ -543,8 +540,7 @@ namespace LHom
 open BoundedFormula
 
 /-- Maps a bounded formula's symbols along a language map. -/
-@[simp]
-def onBoundedFormula (g : L →ᴸ L') : ∀ {k : ℕ}, L.BoundedFormula α k → L'.BoundedFormula α k
+@[target, simp] def onBoundedFormula (g : L →ᴸ L') : ∀ {k : ℕ}, L.BoundedFormula α k → L'.BoundedFormula α k
   | _k, falsum => falsum
   | _k, equal t₁ t₂ => (g.onTerm t₁).bdEqual (g.onTerm t₂)
   | _k, rel R ts => (g.onRelation R).boundedFormula (g.onTerm ∘ ts)
@@ -561,6 +557,7 @@ theorem comp_onBoundedFormula {L'' : Language} (φ : L' →ᴸ L'') (ψ : L →�
       φ.onBoundedFormula ∘ ψ.onBoundedFormula := by sorry
 
 /-- Maps a formula's symbols along a language map. -/
+@[target]
 def onFormula (g : L →ᴸ L') : L.Formula α → L'.Formula α :=
   g.onBoundedFormula
 
@@ -611,8 +608,7 @@ theorem onFormula_symm (φ : L ≃ᴸ L') :
     (φ.onFormula.symm : L'.Formula α ≃ L.Formula α) = φ.symm.onFormula := by sorry
 
 /-- Maps a sentence's symbols along a language equivalence. -/
-@[simps!]
-def onSentence (φ : L ≃ᴸ L') : L.Sentence ≃ L'.Sentence :=
+@[target, simps!] def onSentence (φ : L ≃ᴸ L') : L.Sentence ≃ L'.Sentence :=
   φ.onFormula
 
 end LEquiv
@@ -679,6 +675,7 @@ protected nonrec abbrev iff (φ ψ : L.Formula α) : L.Formula α :=
   φ.iff ψ
 
 /-- A bijection sending formulas to sentences with constants. -/
+@[target]
 def equivSentence : L.Formula α ≃ L[[α]].Sentence :=
   (BoundedFormula.constantsVarsEquiv.trans (BoundedFormula.relabelEquiv (Equiv.sumEmpty _ _))).symm
 

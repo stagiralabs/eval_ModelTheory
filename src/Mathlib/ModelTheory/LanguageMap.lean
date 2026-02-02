@@ -270,8 +270,7 @@ namespace LEquiv
 
 variable (L) in
 /-- The identity equivalence from a first-order language to itself. -/
-@[simps]
-protected def refl : L ≃ᴸ L :=
+@[target, simps] protected def refl : L ≃ᴸ L :=
   ⟨LHom.id L, LHom.id L, LHom.comp_id _, LHom.comp_id _⟩
 
 instance : Inhabited (L ≃ᴸ L) :=
@@ -285,8 +284,7 @@ protected def symm : L' ≃ᴸ L :=
   ⟨e.invLHom, e.toLHom, e.right_inv, e.left_inv⟩
 
 /-- The composition of equivalences of first-order languages. -/
-@[simps, trans]
-protected def trans (e : L ≃ᴸ L') (e' : L' ≃ᴸ L'') : L ≃ᴸ L'' :=
+@[target, simps, trans] protected def trans (e : L ≃ᴸ L') (e' : L' ≃ᴸ L'') : L ≃ᴸ L'' :=
   ⟨e'.toLHom.comp e.toLHom, e.invLHom.comp e'.invLHom, by
     rw [LHom.comp_assoc, ← LHom.comp_assoc e'.invLHom, e'.left_inv, LHom.id_comp, e.left_inv], by
     rw [LHom.comp_assoc, ← LHom.comp_assoc e.toLHom, e.right_inv, LHom.id_comp, e'.right_inv]⟩
@@ -406,8 +404,7 @@ variable {α} {β : Type*}
 theorem withConstants_funMap_sumInl [L[[α]].Structure M] [(lhomWithConstants L α).IsExpansionOn M]
     {n} {f : L.Functions n} {x : Fin n → M} : @funMap (L[[α]]) M _ n (Sum.inl f) x = funMap f x := by sorry
 
-@[simp]
-theorem withConstants_relMap_sumInl [L[[α]].Structure M] [(lhomWithConstants L α).IsExpansionOn M]
+@[target, simp] theorem withConstants_relMap_sumInl [L[[α]].Structure M] [(lhomWithConstants L α).IsExpansionOn M]
     {n} {R : L.Relations n} {x : Fin n → M} : @RelMap (L[[α]]) M _ n (Sum.inl R) x = RelMap R x :=
   (lhomWithConstants L α).map_onRelation R x
 

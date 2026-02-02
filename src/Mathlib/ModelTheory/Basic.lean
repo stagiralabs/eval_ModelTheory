@@ -130,6 +130,8 @@ theorem card_relations_sum (i : ℕ) :
     #((L.sum L').Relations i) =
       Cardinal.lift.{v'} #(L.Relations i) + Cardinal.lift.{v} #(L'.Relations i) := by sorry
 
+@[target]
+
 theorem card_sum :
     (L.sum L').card = Cardinal.lift.{max u' v'} L.card + Cardinal.lift.{max u v} L'.card := by
   simp only [card, mk_sum, mk_sigma, card_functions_sum, sum_add_distrib', lift_add, lift_sum,
@@ -322,8 +324,7 @@ instance : Inhabited (M →[L] M) :=
 theorem id_apply (x : M) : id L M x = x := by sorry
 
 /-- Composition of first-order homomorphisms. -/
-@[trans]
-def comp (hnp : N →[L] P) (hmn : M →[L] N) : M →[L] P where
+@[target, trans] def comp (hnp : N →[L] P) (hmn : M →[L] N) : M →[L] P where
   toFun := hnp ∘ hmn
   -- Porting note: should be done by autoparam?
   map_fun' _ _ := by simp; rfl
@@ -403,8 +404,7 @@ theorem toHom_inj {f g : M ↪[L] N} : f.toHom = g.toHom ↔ f = g := by sorry
 theorem injective (f : M ↪[L] N) : Function.Injective f := by sorry
 
 /-- In an algebraic language, any injective homomorphism is an embedding. -/
-@[simps!]
-def ofInjective [L.IsAlgebraic] {f : M →[L] N} (hf : Function.Injective f) : M ↪[L] N :=
+@[target, simps!] def ofInjective [L.IsAlgebraic] {f : M →[L] N} (hf : Function.Injective f) : M ↪[L] N :=
   { f with
     inj' := hf
     map_rel' := fun {_} r x => StrongHomClass.map_rel f r x }
@@ -633,8 +633,7 @@ theorem comp_toHom (hnp : N ≃[L] P) (hmn : M ≃[L] N) :
 theorem comp_toEmbedding (hnp : N ≃[L] P) (hmn : M ≃[L] N) :
     (hnp.comp hmn).toEmbedding = hnp.toEmbedding.comp hmn.toEmbedding := by sorry
 
-@[simp]
-theorem self_comp_symm (f : M ≃[L] N) : f.comp f.symm = refl L N := by
+@[target, simp] theorem self_comp_symm (f : M ≃[L] N) : f.comp f.symm = refl L N := by
   ext; rw [comp_apply, apply_symm_apply, refl_apply]
 
 @[target, simp]
@@ -656,8 +655,7 @@ theorem symm_comp_self_toHom (f : M ≃[L] N) :
 theorem self_comp_symm_toHom (f : M ≃[L] N) :
     f.toHom.comp f.symm.toHom = Hom.id L N := by sorry
 
-@[simp]
-theorem comp_symm (f : M ≃[L] N) (g : N ≃[L] P) : (g.comp f).symm = f.symm.comp g.symm :=
+@[target, simp] theorem comp_symm (f : M ≃[L] N) (g : N ≃[L] P) : (g.comp f).symm = f.symm.comp g.symm :=
   rfl
 
 @[target]

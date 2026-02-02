@@ -78,8 +78,7 @@ instance simpleGraph_model (G : SimpleGraph V) :
 
 variable (V) in
 /-- Any model of the theory of simple graphs represents a simple graph. -/
-@[simps]
-def simpleGraphOfStructure [Language.graph.Structure V] [V ⊨ Theory.simpleGraph] :
+@[target, simps] def simpleGraphOfStructure [Language.graph.Structure V] [V ⊨ Theory.simpleGraph] :
     SimpleGraph V where
   Adj x y := RelMap adj ![x, y]
   symm :=

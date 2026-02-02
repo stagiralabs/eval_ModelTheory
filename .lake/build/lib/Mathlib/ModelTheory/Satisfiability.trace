@@ -18,90 +18,90 @@
    "././src/./Mathlib/ModelTheory/Satisfiability.lean:97:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:109:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:111:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:115:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:117:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:121:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:123:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:126:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:128:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:138:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:140:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:148:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:150:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:173:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:176:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:182:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:185:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:199:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:203:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:202:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Satisfiability.lean:206:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:226:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:209:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:230:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:231:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:234:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:235:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:238:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:239:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:241:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:243:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/Satisfiability.lean:246:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:253:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:251:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:275:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:258:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:286:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:282:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:289:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:293:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:297:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:296:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:307:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:304:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:310:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:314:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:313:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:317:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:316:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:320:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:336:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:323:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:341:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:343:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Satisfiability.lean:344:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:348:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/Satisfiability.lean:351:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "88824918049160217"}
+ "depHash": "2288350792749570779"}

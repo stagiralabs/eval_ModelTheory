@@ -30,18 +30,18 @@
    "././src/./Mathlib/ModelTheory/Types.lean:103:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Types.lean:117:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Types.lean:119:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Types.lean:122:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Types.lean:124:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Types.lean:141:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Types.lean:143:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Types.lean:145:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Types.lean:147:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Types.lean:161:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Types.lean:163:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "5755660975029581192"}
+ "depHash": "4018924633983391273"}

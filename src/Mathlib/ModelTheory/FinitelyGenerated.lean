@@ -127,6 +127,8 @@ theorem cg_iff_empty_or_exists_nat_generating_family {N : L.Substructure M} :
     · obtain ⟨f, rfl⟩ := h
       exact ⟨range f, countable_range _, rfl⟩
 
+@[target]
+
 theorem cg_bot : (⊥ : L.Substructure M).CG :=
   fg_bot.cg
 
@@ -218,6 +220,7 @@ theorem cg_def : CG L M ↔ (⊤ : L.Substructure M).CG :=
   ⟨fun h => h.1, fun h => ⟨h⟩⟩
 
 /-- An equivalent expression of `Structure.cg`. -/
+@[target]
 theorem cg_iff : CG L M ↔ ∃ S : Set M, S.Countable ∧ closure L S = (⊤ : L.Substructure M) := by
   rw [cg_def, Substructure.cg_def]
 

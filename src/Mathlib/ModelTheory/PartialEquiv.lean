@@ -67,6 +67,7 @@ noncomputable instance instInhabited_self : Inhabited (M ≃ₚ[L] M) :=
   ⟨⊤, ⊤, Equiv.refl L (⊤ : L.Substructure M)⟩
 
 /-- Maps to the symmetric partial equivalence. -/
+@[target]
 def symm (f : M ≃ₚ[L] N) : N ≃ₚ[L] M where
   dom := f.cod
   cod := f.dom
@@ -140,7 +141,7 @@ instance : PartialOrder (M ≃ₚ[L] N) where
   le_trans := le_trans
   le_antisymm := le_antisymm
 
-@[gcongr] lemma symm_le_symm {f g : M ≃ₚ[L] N} (hfg : f ≤ g) : f.symm ≤ g.symm := by
+@[target, gcongr] lemma symm_le_symm {f g : M ≃ₚ[L] N} (hfg : f ≤ g) : f.symm ≤ g.symm := by
   rw [le_iff]
   refine ⟨cod_le_cod hfg, dom_le_dom hfg, ?_⟩
   intro x
@@ -164,6 +165,8 @@ theorem ext {f g : M ≃ₚ[L] N} (h_dom : f.dom = g.dom) : (∀ x : M, ∀ h : 
 theorem ext_iff {f g : M ≃ₚ[L] N} : f = g ↔ ∃ h_dom : f.dom = g.dom,
     ∀ x : M, ∀ h : x ∈ f.dom,
     subtype _ (f.toEquiv ⟨x, h⟩) = subtype _ (g.toEquiv ⟨x, (h_dom ▸ h)⟩) := by sorry
+
+@[target]
 
 theorem monotone_dom : Monotone (fun f : M ≃ₚ[L] N ↦ f.dom) := fun _ _ ↦ dom_le_dom
 
@@ -253,8 +256,7 @@ theorem toEmbedding_toPartialEquiv (f : M ↪[L] N) :
     PartialEquiv.toEmbeddingOfEqTop (f := f.toPartialEquiv) rfl = f :=
   rfl
 
-@[simp]
-theorem toPartialEquiv_toEmbedding {f :  M ≃ₚ[L] N} (h : f.dom = ⊤) :
+@[target, simp] theorem toPartialEquiv_toEmbedding {f :  M ≃ₚ[L] N} (h : f.dom = ⊤) :
     (PartialEquiv.toEmbeddingOfEqTop h).toPartialEquiv = f := by
   rcases f with ⟨_, _, _⟩
   cases h
@@ -362,6 +364,8 @@ instance inhabited_FGEquiv_of_IsEmpty_Constants_and_Relations
 @[simps]
 def FGEquiv.symm (f : L.FGEquiv M N) : L.FGEquiv N M := ⟨f.1.symm, f.1.dom_fg_iff_cod_fg.1 f.2⟩
 
+@[target]
+
 lemma isExtensionPair_iff_cod : L.IsExtensionPair M N ↔
     ∀ (f : L.FGEquiv N M) (m : M), ∃ g, m ∈ g.1.cod ∧ f ≤ g := by
   refine Iff.intro ?_ ?_ <;>
@@ -383,12 +387,14 @@ namespace IsExtensionPair
 protected alias ⟨cod, _⟩ := isExtensionPair_iff_cod
 
 /-- The cofinal set of finite equivalences with a given element in their domain. -/
+@[target]
 def definedAtLeft
     (h : L.IsExtensionPair M N) (m : M) : Order.Cofinal (FGEquiv L M N) where
   carrier := {f | m ∈ f.val.dom}
   isCofinal := fun f => h f m
 
 /-- The cofinal set of finite equivalences with a given element in their codomain. -/
+@[target]
 def definedAtRight
     (h : L.IsExtensionPair N M) (n : N) : Order.Cofinal (FGEquiv L M N) where
   carrier := {f | n ∈ f.val.cod}

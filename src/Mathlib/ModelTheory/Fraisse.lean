@@ -224,6 +224,7 @@ theorem IsUltrahomogeneous.extend_embedding (M_homog : L.IsUltrahomogeneous M) {
 
 /-- A countably generated structure is ultrahomogeneous if and only if any equivalence between
 finitely generated substructures can be extended to any element in the domain. -/
+@[target]
 theorem isUltrahomogeneous_iff_IsExtensionPair (M_CG : CG L M) : L.IsUltrahomogeneous M ↔
     L.IsExtensionPair M M := by
   constructor
@@ -287,6 +288,8 @@ variable [Countable (Σ l, L.Functions l)] [Countable M] [Countable N]
 variable (hM : IsFraisseLimit K M) (hN : IsFraisseLimit K N)
 
 include hM hN
+
+@[target]
 
 protected theorem isExtensionPair : L.IsExtensionPair M N := by
   intro ⟨f, f_FG⟩ m

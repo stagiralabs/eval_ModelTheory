@@ -216,6 +216,7 @@ theorem exists_quotient_mk'_sigma_mk'_eq {α : Type*} [Finite α] (x : α → Di
 variable (L ι)
 
 /-- The canonical map from a component to the direct limit. -/
+@[target]
 def of (i : ι) : G i ↪[L] DirectLimit G f where
   toFun := fun a => ⟦.mk f i a⟧
   inj' x y h := by
@@ -246,8 +247,7 @@ some component of the directed system. -/
 @[target]
 theorem exists_of (z : DirectLimit G f) : ∃ i x, of L ι G f i x = z := by sorry
 
-@[elab_as_elim]
-protected theorem inductionOn {C : DirectLimit G f → Prop} (z : DirectLimit G f)
+@[target, elab_as_elim] protected theorem inductionOn {C : DirectLimit G f → Prop} (z : DirectLimit G f)
     (ih : ∀ i x, C (of L ι G f i x)) : C z :=
   let ⟨i, x, h⟩ := exists_of z
   h ▸ ih i x
@@ -267,6 +267,7 @@ variable (L ι G f) in
 /-- The universal property of the direct limit: maps from the components to another module
 that respect the directed system structure (i.e. make some diagram commute) give rise
 to a unique map out of the direct limit. -/
+@[target]
 def lift (g : ∀ i, G i ↪[L] P) (Hg : ∀ i j hij x, g j (f i j hij x) = g i x) :
     DirectLimit G f ↪[L] P where
   toFun :=
@@ -307,6 +308,8 @@ theorem lift_unique (F : DirectLimit G f ↪[L] P) (x) :
     F x =
       lift L ι G f (fun i => F.comp <| of L ι G f i)
         (fun i j hij x => by rw [F.comp_apply, F.comp_apply, of_f]) x := by sorry
+
+@[target]
 
 lemma range_lift : (lift L ι G f g Hg).toHom.range = ⨆ i, (g i).toHom.range := by
   simp_rw [Hom.range_eq_map]
@@ -370,6 +373,7 @@ instance : DirectedSystem (fun i ↦ S i) (fun _ _ h ↦ Substructure.inclusion 
 namespace DirectLimit
 
 /-- The map from a direct limit of a system of substructures of `M` into `M`. -/
+@[target]
 def liftInclusion :
     DirectLimit (fun i ↦ S i) (fun _ _ h ↦ Substructure.inclusion (S.monotone h)) ↪[L] M :=
   DirectLimit.lift L ι (fun i ↦ S i) (fun _ _ h ↦ Substructure.inclusion (S.monotone h))

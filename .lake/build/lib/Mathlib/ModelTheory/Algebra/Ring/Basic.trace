@@ -12,12 +12,12 @@
    "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:142:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:187:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:186:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:196:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:195:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:199:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/Algebra/Ring/Basic.lean:198:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "10623535924651350547"}
+ "depHash": "9913964202659432842"}

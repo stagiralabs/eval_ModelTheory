@@ -24,49 +24,46 @@
    "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:107:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:134:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:136:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:137:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:139:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:140:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:142:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:148:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:150:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:158:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:160:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:179:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:181:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:183:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:185:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:186:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:188:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:189:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:191:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:193:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:195:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:201:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:203:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:209:8: declaration uses 'sorry'",
-   "level": "warning"},
-  {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:225:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:211:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:228:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:232:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:231:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:235:8: declaration uses 'sorry'",
@@ -75,12 +72,15 @@
    "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:238:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:251:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:241:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
    "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:254:8: declaration uses 'sorry'",
    "level": "warning"},
   {"message":
-   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:258:8: declaration uses 'sorry'",
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:257:8: declaration uses 'sorry'",
+   "level": "warning"},
+  {"message":
+   "././src/./Mathlib/ModelTheory/FinitelyGenerated.lean:261:8: declaration uses 'sorry'",
    "level": "warning"}],
- "depHash": "4651092181079447825"}
+ "depHash": "4292604967328499424"}

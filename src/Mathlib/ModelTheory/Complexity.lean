@@ -92,12 +92,18 @@ theorem sup {φ ψ : L.BoundedFormula α n} (hφ : IsQF φ) (hψ : IsQF ψ) : Is
 @[target]
 theorem inf {φ ψ : L.BoundedFormula α n} (hφ : IsQF φ) (hψ : IsQF ψ) : IsQF (φ ⊓ ψ) := by sorry
 
+@[target]
+
 protected theorem relabel {m : ℕ} {φ : L.BoundedFormula α m} (h : φ.IsQF) (f : α → β ⊕ (Fin n)) :
     (φ.relabel f).IsQF :=
   IsQF.recOn h isQF_bot (fun h => (h.relabel f).isQF) fun _ _ h1 h2 => h1.imp h2
 
+@[target]
+
 protected theorem liftAt {k m : ℕ} (h : IsQF φ) : (φ.liftAt k m).IsQF :=
   IsQF.recOn h isQF_bot (fun ih => ih.liftAt.isQF) fun _ _ ih1 ih2 => ih1.imp ih2
+
+@[target]
 
 protected theorem castLE {h : l ≤ n} (hφ : IsQF φ) : (φ.castLE h).IsQF :=
   IsQF.recOn hφ isQF_bot (fun ih => ih.castLE.isQF) fun _ _ ih1 ih2 => ih1.imp ih2
@@ -147,6 +153,7 @@ theorem IsPrenex.liftAt {k m : ℕ} (h : IsPrenex φ) : (φ.liftAt k m).IsPrenex
 /-- An auxiliary operation to `FirstOrder.Language.BoundedFormula.toPrenex`.
   If `φ` is quantifier-free and `ψ` is in prenex normal form, then `φ.toPrenexImpRight ψ`
   is a prenex normal form for `φ.imp ψ`. -/
+@[target]
 def toPrenexImpRight : ∀ {n}, L.BoundedFormula α n → L.BoundedFormula α n → L.BoundedFormula α n
   | n, φ, BoundedFormula.ex ψ => ((φ.liftAt 1 n).toPrenexImpRight ψ).ex
   | n, φ, all ψ => ((φ.liftAt 1 n).toPrenexImpRight ψ).all
@@ -163,6 +170,7 @@ theorem isPrenex_toPrenexImpRight {φ ψ : L.BoundedFormula α n} (hφ : IsQF φ
 /-- An auxiliary operation to `FirstOrder.Language.BoundedFormula.toPrenex`.
   If `φ` and `ψ` are in prenex normal form, then `φ.toPrenexImp ψ`
   is a prenex normal form for `φ.imp ψ`. -/
+@[target]
 def toPrenexImp : ∀ {n}, L.BoundedFormula α n → L.BoundedFormula α n → L.BoundedFormula α n
   | n, BoundedFormula.ex φ, ψ => (φ.toPrenexImp (ψ.liftAt 1 n)).all
   | n, all φ, ψ => (φ.toPrenexImp (ψ.liftAt 1 n)).ex
@@ -224,6 +232,8 @@ theorem IsQF.induction_on_inf_not {P : L.BoundedFormula α n → Prop} {φ : L.B
 @[target]
 theorem iff_toPrenex (φ : L.BoundedFormula α n) :
     φ ⇔[∅] φ.toPrenex := by sorry
+
+@[target]
 
 theorem induction_on_all_ex {P : ∀ {m}, L.BoundedFormula α m → Prop} (φ : L.BoundedFormula α n)
     (hqf : ∀ {m} {ψ : L.BoundedFormula α m}, IsQF ψ → P ψ)
@@ -357,20 +367,32 @@ lemma isQF (r : L.Relations l) (ts : Fin l → L.Term (α ⊕ (Fin n))) :
 
 variable (r : L.Relations 2)
 
+@[target]
+
 protected lemma isUniversal_reflexive : r.reflexive.IsUniversal :=
   (r.isQF _).isUniversal.all
+
+@[target]
 
 protected lemma isUniversal_irreflexive : r.irreflexive.IsUniversal :=
   (r.isAtomic _).isQF.not.isUniversal.all
 
+@[target]
+
 protected lemma isUniversal_symmetric : r.symmetric.IsUniversal :=
   ((r.isQF _).imp (r.isQF _)).isUniversal.all.all
+
+@[target]
 
 protected lemma isUniversal_antisymmetric : r.antisymmetric.IsUniversal :=
   ((r.isQF _).imp ((r.isQF _).imp (IsAtomic.equal _ _).isQF)).isUniversal.all.all
 
+@[target]
+
 protected lemma isUniversal_transitive : r.transitive.IsUniversal :=
   ((r.isQF _).imp ((r.isQF _).imp (r.isQF _))).isUniversal.all.all.all
+
+@[target]
 
 protected lemma isUniversal_total : r.total.IsUniversal :=
   ((r.isQF _).sup (r.isQF _)).isUniversal.all.all
